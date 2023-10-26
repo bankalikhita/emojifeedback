@@ -1,0 +1,79 @@
+/* Write your CSS code here. */
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background color for the entire app */
+body {
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style the Feedback container */
+.feedback-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+.emoji-wrapper {
+  display: inline-block; /* Display elements in a row */
+  margin: 5px; /* Add some spacing between emojis */
+  text-align: center; /* Center the contents horizontally */
+}
+
+.emoji-wrapper img {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+}
+
+.emoji-name {
+  font-size: 16px; /* Adjust the font size as needed */
+  margin-top: 5px; /* Add spacing between the emoji and its name */
+}
+
+h1 {
+  font-family: roboto;
+}
+/* Style the emoji images */
+.emoji-container img {
+  width: 80px;
+  height: 80px;
+  margin: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+/* Add a hover effect to the emoji images */
+.emoji-container img:hover {
+  transform: scale(1.1);
+}
+
+/* Style the Thank You message */
+.thank-you {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the love emoji image in the Thank You screen */
+.thank-you img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/* Center the text in the Thank You screen */
+.thank-you h2 {
+  margin: 10px;
+}
